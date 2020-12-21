@@ -1,0 +1,74 @@
+/* body{
+    background-color: cadetblue;
+   
+}
+.page-wrapper{
+    background-color: brown;
+   
+}
+
+.intro{
+    background-color: blueviolet;
+     
+}
+
+header{
+    background-color: blue;
+   
+} */
+
+
+
+
+
+body{
+    background-image: url(../images/robot.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+
+
+
+
+h1,h2,h3,.summary p, body{
+    margin: 0%;
+}
+
+
+h1{
+    font-size: 6rem;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgb(32, 54, 39);
+    
+}
+
+h1::after{
+    content: "";
+    display: inline-block;
+    margin: 0 auto;
+    width: 10%;
+    border-top: red 2px solid;
+    margin-bottom: 40px;
+}
+
+h1::before{
+    content: "";
+    display: inline-block;
+    margin: 0 auto;
+    width: 10%;
+    border-top: red 2px solid;
+    margin-bottom: 40px;
+    margin-left: 120px;
+}
+
+h2{
+    margin-left: 37em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: crimson;
+}
