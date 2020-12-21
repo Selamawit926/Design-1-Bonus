@@ -72,3 +72,14 @@ h2{
     font-style: italic;
     color: crimson;
 }
+
+.summary{
+    margin-left: 64em;
+    margin-right: 17em;
+    margin-top: 3.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: crimson;
+    /* background-color: coral; */
+
+}
