@@ -83,3 +83,30 @@ h2{
     /* background-color: coral; */
 
 }
+
+.preamble{
+    width: 100%;
+    margin-right: 52em;
+    margin-top: 13em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255,0.7);
+    /* background-color: white;
+    opacity: 0.7; */
+    border-top: 5px solid red;
+    border-bottom: 5px solid #bdf1fc;
+}
+
+.preamble h3{
+    font-size: 2.4em;
+    color: red;
+    padding-top: 0.5em;
+    padding-left: 7em;
+    padding-right: 22em;
+    /* background-color: darkgreen; */
+}
+
+.preamble p{
+    padding-left: 17em;
+    padding-right: 52em;
+    /* background-color: darkgoldenrod; */
+}
