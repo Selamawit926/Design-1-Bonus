@@ -155,3 +155,21 @@ h2{
     padding-right: 52em;
     
 }
+
+.participation h3::after{
+    content: url("../images/image\ \(4\).png");
+    position: absolute;
+    left: 20em;
+    top: 22em;
+    /* background-color: chocolate; */
+    
+}
+
+.participation::after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    padding-top: 70px;
+    border-bottom: red 2px solid;
+}
