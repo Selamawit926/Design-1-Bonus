@@ -197,3 +197,10 @@ h2{
     padding-right: 20em;
     
 }
+
+.benefits::before{
+    content: url(../images/image\ \(3\).png);
+    position: absolute;
+    top: 97em;
+    left: 20em;
+}
