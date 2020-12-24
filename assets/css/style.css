@@ -284,3 +284,100 @@ footer a{
 footer a:any-link {
     color:white;
 }
+
+
+.sidebar{
+    background-color: rgb(82, 186, 235);
+    height: 35em;
+    border-top: 5px white solid;
+    
+}
+
+.sidebar h3{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+ 
+.zen-resources ul{
+    margin: 0%;
+}
+
+.design-selection{
+    float: left;
+    margin-left: 17em;
+    /* background-color: rgb(156, 77, 31); */
+   
+}
+
+.design-archives{
+    margin-left: 49em;
+    /* background-color: magenta; */
+    border-left: white solid 2px;
+    padding-left: 3em;
+    margin-top: 2em;
+    
+}
+
+.zen-resources{
+    /* background-color: blueviolet; */
+    margin-left: 49em;
+    padding-top: 3em;
+    padding-left: 3em;
+    border-left: white solid 2px;
+    height: 19em;
+}
+
+
+ ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.design-archives li,.zen-resources li{
+    padding-top: 1em;
+}
+
+
+
+.design-selection li{
+    /* background-color: lightcyan; */
+    /* color: lightpink; */
+    /* display: grid; */
+    /* grid-template-rows: auto auto; */
+    /* grid-template-columns: auto;
+    grid-template-rows: auto auto; */
+    padding-top: 1em;
+    
+    
+   
+}
+
+.designer-name{
+    /* grid-row-start: 2;
+    grid-row-end: 3; */
+    /* background-color: lime; */
+    color: black;
+   
+    
+}
+
+.design-name::after{
+    /* grid-column-start: 1;
+    grid-column-end: 2; */
+    /* float: left; */
+    content: "\a";
+    white-space: pre;
+}
+
+a{
+    text-decoration: none;
+}
+
+li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
