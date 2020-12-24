@@ -204,3 +204,63 @@ h2{
     top: 97em;
     left: 20em;
 }
+
+.requirements{
+    width: 100%;
+    height:42em;
+    /* background-color: chartreuse; */
+    background-color: white;
+    opacity: 0.8;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.requirements h3{
+    font-size: 2.7em;
+    color: red;
+    padding-top: 0.7em;
+    text-align: center;
+}
+
+.requirements p:nth-child(2),.requirements p:nth-child(3){
+    /* background-color: darkviolet; */
+    padding-left: 17em;
+    padding-right: 52em;
+}
+
+.requirements p:nth-child(4),.requirements p:nth-child(5){
+    /* background-color: deeppink; */
+    position: absolute;
+    width: 450px;
+}
+
+.requirements p:nth-child(4){
+    top: 124.5em;
+    left: 50em;
+   
+}
+
+.requirements p:nth-child(5){
+    top: 133.5em;
+    left: 50em;
+   
+}
+
+.requirements p:nth-last-child(1){
+    font-size: 1.4em;
+    width: 480px;
+    margin-top: 3em;
+    margin-left: 25em;
+    /* background-color: violet; */
+    text-align: center;
+}
+
+
+ /* p:nth-child(2),p:nth-child(3){
+    background-color: darkmagenta;
+    float: left;
+    
+}
+p:nth-child(4),p:nth-child(5){
+    background-color: darkorange;
+    float: right;
+} */
