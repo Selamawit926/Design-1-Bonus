@@ -18,6 +18,11 @@ header{
 } */
 
 
+.intro{
+    /* background-color: rgb(234, 255, 253); */
+    background-image: linear-gradient(to top, rgb(188, 235, 252), rgba(250, 250, 250,0));  
+    
+   }
 
 
 
@@ -29,8 +34,6 @@ body{
     
     
 }
-
-
 
 
 h1,h2,h3,.summary p, body{
@@ -112,6 +115,27 @@ h2{
 }
 
 
+.preamble  p:first-of-type abbr:first-child:hover::after{
+    display: inline;
+    content: " (Document Object Model)";
+}
+
+.preamble  p:first-of-type abbr:nth-child(2):hover::after{
+    display: inline;
+    content: " (Cascading Style Sheets)";
+}
+
+.preamble  p:nth-child(3) abbr:first-child:hover::after{
+    display: inline;
+    content: " (World Wide Web Consortium)";
+}
+
+.preamble  p:nth-child(3) abbr:nth-child(2):hover::after{
+    display: inline;
+    content: " (Web Standards Project)";
+}
+
+
 .explanation{
     width: 33em;
     position: absolute;
@@ -132,6 +156,27 @@ h2{
     font-size: 1em;
     padding-right: 4em;
 }
+
+.explanation p:first-of-type abbr:first-child:hover::after{
+    display: inline;
+    content: " (Cascading Style Sheets)";
+}
+
+.explanation  p:first-of-type abbr:nth-child(2):hover::after{
+    display: inline;
+    content: " (HyperText Markup Language)";
+}
+
+.explanation p:first-of-type abbr:nth-child(3):hover::after{
+    display: inline;
+    content: " (Cascading Style Sheets)";
+}
+
+.explanation p:nth-child(3) abbr:first-child:hover::after{
+    display: inline;
+    content: " (Cascading Style Sheets)";
+}
+
 
 .participation{
     width: 100%;
@@ -174,6 +219,32 @@ h2{
     border-bottom: red 2px solid;
 }
 
+.participation p:first-of-type abbr:first-child:hover::after{
+    display: inline;
+    content: " (Cascading Style Sheets)";
+}
+
+.participation p:first-of-type abbr:nth-child(2):hover::after{
+    display: inline;
+    content: " (Cascading Style Sheets)";
+}
+
+.participation p:first-of-type abbr:last-child:hover::after{
+    display: inline;
+    content: " (Cascading Style Sheets)";
+}
+
+.participation p:nth-child(3) abbr:first-child:hover::after{
+    display: inline;
+    content: " (HyperText Markup Language)";
+}
+
+.participation p:nth-child(4) abbr:first-child:hover::after{
+    display: inline;
+    content: " (Cascading Style Sheets)";
+}
+
+
 .benefits{
     width: 100%;
     height:26em;
@@ -203,6 +274,11 @@ h2{
     position: absolute;
     top: 97em;
     left: 20em;
+}
+
+.benefits p:first-of-type abbr:first-child:hover::after{
+    display: inline;
+    content: " (Cascading Style Sheets)";
 }
 
 .requirements{
@@ -252,6 +328,36 @@ h2{
     margin-left: 25em;
     /* background-color: violet; */
     text-align: center;
+}
+
+.requirements p:nth-child(2) abbr:first-child:hover::after{
+    display: inline;
+    content: " (Cascading Style Sheets, levels 1 and 2)";
+}
+
+.requirements p:nth-child(2) abbr:nth-child(2):hover::after{
+    display: inline;
+    content: " (Cascading Style Sheets, levels 3 and 4)";
+}
+
+.requirements p:nth-child(2) abbr:nth-child(3):hover::after{
+    display: inline;
+    content: " (Cascading Style Sheets)";
+}
+
+.requirements p:nth-child(2) abbr:nth-child(4):hover::after{
+    display: inline;
+    content: " (Cascading Style Sheets)";
+}
+
+.requirements p:nth-child(3) abbr:first-child:hover::after{
+    display: inline;
+    content: " (Cascading Style Sheets)";
+}
+
+.requirements p:nth-child(5) abbr:first-child:hover::after{
+    display: inline;
+    content: " (Cascading Style Sheets)";
 }
 
 
