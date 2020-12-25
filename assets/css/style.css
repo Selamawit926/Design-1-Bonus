@@ -22,7 +22,7 @@ header{
     /* background-color: rgb(234, 255, 253); */
     background-image: linear-gradient(to top, rgb(188, 235, 252), rgba(250, 250, 250,0));  
     
-   }
+}
 
 
 
@@ -487,3 +487,1453 @@ li>a{
     font-size: 1.2em;
 }
 
+@media screen and (max-width:500px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    h1::after{
+        content: "";
+        display: inline-block;
+        margin: 0 auto;
+        width:20%;
+        border-top: red 2px solid;
+        margin-bottom: 10px;
+    }
+    
+    h1::before{
+        content: "";
+        display: inline-block;
+        margin: 0 auto;
+        width: 20%;
+        border-top: red 2px solid;
+        margin-bottom: 10px;
+        
+    }
+    
+
+    h2{
+        margin-left: 9em;
+        font-size: 1.2em;
+
+    }
+
+    .summary{
+        text-align: center;
+        margin-left: 5em;
+        margin-right: 6em;
+        font-size: 17px;
+        /* background-color: blue;
+        color: blueviolet; */
+        
+    }
+
+    .preamble{
+        margin-top: 16em;
+        margin-right:5em ;
+        background-color: rgb(255, 255, 255,0.9);
+        border-bottom: none;
+    }
+
+    .preamble h3{
+        font-size: 2.4em;
+        padding-left:0.8em;
+        padding-right: 2em;
+    }
+
+    .preamble p{
+        padding-left: 2em;
+        padding-right: 4em;
+        
+    }
+
+    .explanation{
+        position: static;
+        width: 33em;
+        margin-left: 2em;
+        background-color: rgb(255, 255, 255,0.9);
+    
+    }
+
+    .explanation h3{
+        padding-top: 1em;
+        font-size: 2.4em;
+
+    }
+
+    .explanation p{
+        padding-right: 8em;
+    }
+
+    .participation{
+        height: 36em;
+        margin:0%;
+        border-bottom: none;
+        border-top:5px solid rgb(136, 226, 241) ;
+    }
+
+    .participation h3{
+        font-size: 2.4em;
+        padding-left: 0.8em;
+        padding-right: 3em;
+    }
+
+    .participation p{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .participation::after{
+        content: url(../images/image\ \(5\).png);
+        position: static;
+        margin-left: 0px;
+        margin-top: 0px !important;
+        border-bottom: none;
+    }
+
+    .participation h3::after{
+        content: none;
+    }
+
+    /* .participation::after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        padding-top: 30px;
+        border-bottom: red 2px solid;
+    } */
+
+    .benefits{
+        height: 39em;
+        margin-top: 17em;
+    }
+
+    .benefits h3{
+        font-size:2.4em ;
+        padding-top: 3em;
+        padding-left: 1em;
+    }
+
+    .benefits p{
+        padding-left: 2em;
+        padding-right: 4em;
+    }
+
+    .benefits::before{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 20% ;
+        padding-top: 700px;
+        margin-left: 0px;
+        padding-right: 30px;
+        /* border-bottom: red 2px solid; */
+    }
+
+
+    .benefits::after{
+        content: url(../images/image\ \(3\).png);
+        margin-left: 6em;
+    }
+
+    .requirements{
+        height: 60em;
+    }
+
+    .requirements h3{
+        font-size: 2.4em;
+        padding-left: 0.5em;
+    }
+
+
+    .requirements p:nth-child(4),.requirements p:nth-child(5){
+        background-color: deeppink;
+        position: static;
+        padding-left: 1em;
+        width: 430px;
+
+    
+    }
+
+    .requirements p:nth-child(2),.requirements p:nth-child(3){
+        background-color: darkviolet;
+        padding-left: 1em;
+        padding-right: 4em;
+    }
+
+
+    .requirements p:nth-last-child(1){
+        font-size: 1.4em;
+        margin-top: 3em;
+        margin-left: 1.2em;
+        width: 400px;
+        background-color: violet;
+        text-align: center;
+    }
+
+    .sidebar{
+        height:66em !important;
+    }
+
+    .design-selection{
+        background-color: brown;
+        margin-left: 170px !important;
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .design-archives{
+        clear:left;
+        padding-top: 2em;
+        margin-left: 0px !important;
+        background-color: blue;
+        text-align: center;
+        border-left: none;
+    }
+
+    /* .archives{
+        padding-left: 140px;
+    }
+
+    .next,.viewall{
+        padding-left: 120px;
+    } */
+  
+    .zen-resources{
+        padding-top: 2em;
+        border-left: none;
+        text-align: center;
+        margin-left: 0px !important;
+        background-color: blue;
+    }
+
+}
+
+@media screen and (min-width:501px) and (max-width:700px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    h1{
+        font-size: 3em;
+    }
+
+    h1::after{
+        content: "";
+        display: inline-block;
+        margin: 0 auto;
+        width:15%;
+        border-top: red 2px solid;
+        margin-bottom: 10px;
+    }
+    
+    h1::before{
+        content: "";
+        display: inline-block;
+        margin: 0 auto;
+        width: 15%;
+        border-top: red 2px solid;
+        margin-bottom: 10px;
+        
+    }
+    
+
+    h2{
+        margin-left: 13em;
+        font-size: 1.2em;
+
+    }
+
+    .summary{
+        text-align: center;
+        margin-left: 8em;
+        margin-right: 8em;
+        font-size: 17px;
+        /* background-color: blue;
+        color: blueviolet; */
+        
+    }
+
+    .preamble{
+        margin-top: 16em;
+        margin-right:5em ;
+        background-color: rgb(255, 255, 255,0.9);
+        border-bottom: none;
+    }
+
+    .preamble h3{
+        font-size: 2.4em;
+        padding-left:0.8em;
+        padding-right: 2em;
+    }
+
+    .preamble p{
+        padding-left: 2em;
+        padding-right: 6em;
+        
+    }
+
+    .explanation{
+        width: 33em;
+        position: static;
+        margin-left: 2em;
+        background-color: rgb(255, 255, 255,0.9);
+    
+    }
+
+    .explanation h3{
+        padding-top: 1em;
+        font-size: 2.4em;
+
+    }
+
+    .explanation p{
+        padding-right: 8em;
+    }
+
+    .participation{
+        height: 36em;
+        border-bottom: none;
+        border-top:5px solid rgb(136, 226, 241) ;
+    }
+
+    .participation h3{
+        font-size: 2.4em;
+        padding-left: 0.8em;
+        padding-right: 3em;
+    }
+
+    .participation p{
+        padding-left: 2em;
+        padding-right: 5em;
+    }
+
+    .participation::after{
+        content: url(../images/image\ \(5\).png);
+        position: static;
+        margin-left: 0px;
+        margin-top: 3px !important;
+        border-bottom: none;
+        width: 800px !important;
+        background-color:rgb(238, 250, 255) ;
+    }
+
+    .participation h3::after{
+        content: none;
+    }
+
+    /* .participation::after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        padding-top: 30px;
+        border-bottom: red 2px solid;
+    } */
+
+    .benefits{
+        height: 39em;
+        margin-top: 14em;
+    }
+
+    .benefits h3{
+        font-size:2.4em ;
+        padding-top: 3em;
+        padding-left: 1em;
+    }
+
+    .benefits p{
+        padding-left: 2em;
+        padding-right: 4em;
+    }
+
+    .benefits::before{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 20% ;
+        padding-top: 700px;
+        margin-left: 0px;
+        padding-right: 30px;
+        /* border-bottom: red 2px solid; */
+    }
+
+
+    .benefits::after{
+        content: url(../images/image\ \(3\).png);
+        margin-left: 6em;
+    }
+
+    .requirements{
+        height: 60em;
+    }
+
+    .requirements h3{
+        font-size: 2.4em;
+        padding-left: 0.5em;
+    }
+
+
+    .requirements p:nth-child(4),.requirements p:nth-child(5){
+        background-color: deeppink;
+        position: static;
+        padding-left: 3em;
+        width: 430px;
+
+    
+    }
+
+    .requirements p:nth-child(2),.requirements p:nth-child(3){
+        background-color: darkviolet;
+        padding-left: 3em;
+        padding-right: 4em;
+    }
+
+
+    .requirements p:nth-last-child(1){
+        font-size: 1.4em;
+        margin-top: 3em;
+        margin-left: 1.2em;
+        width: 400px;
+        background-color: violet;
+        text-align: center;
+    }
+
+    .sidebar{
+        height:66em !important;
+    }
+
+    .design-selection{
+        background-color: brown;
+        margin-left: 180px !important;
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .design-archives{
+        clear:left;
+        padding-top: 2em;
+        margin-left: 0px !important;
+        background-color: blue;
+        text-align: center;
+        border-left: none;
+    }
+
+    /* .archives{
+        padding-left: 140px;
+    }
+
+    .next,.viewall{
+        padding-left: 120px;
+    } */
+  
+    .zen-resources{
+        padding-top: 2em;
+        border-left: none;
+        text-align: center;
+        margin-left: 0px !important;
+        background-color: blue;
+    }
+
+}
+
+@media screen and (min-width:601px) and (max-width:700px){
+    
+
+    .requirements p:nth-last-child(1){
+        font-size: 1.4em;
+        margin-top: 3em;
+        margin-left: 1.8em;
+        width: 400px;
+        background-color: violet;
+        text-align: center;
+    }
+
+    .design-selection{
+        background-color: brown;
+        margin-left: 250px !important;
+        margin-top: 2em;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:701px) and (max-width:900px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    h1{
+        font-size: 5em;
+    }
+
+    h1::after{
+        content: "";
+        display: inline-block;
+        margin: 0 auto;
+        width:7%;
+        border-top: red 2px solid;
+        margin-bottom: 20px;
+    }
+    
+    h1::before{
+        content: "";
+        display: inline-block;
+        margin: 0 auto;
+        width: 7%;
+        border-top: red 2px solid;
+        margin-bottom: 20px;
+        
+    }
+    
+
+    h2{
+        margin-left: 27em;
+        font-size: 1.2em;
+
+    }
+
+    .summary{
+        text-align: center;
+        margin-left: 13em;
+        margin-right: 13em;
+        font-size: 15px;
+        /* background-color: blue;
+        color: blueviolet; */
+        
+    }
+
+    .preamble{
+        margin-top: 16em;
+        margin-right:5em ;
+        background-color: rgb(255, 255, 255,0.9);
+        border-bottom: none;
+    }
+
+    .preamble h3{
+        font-size: 2.4em;
+        padding-left:0.8em;
+        padding-right: 2em;
+    }
+
+    .preamble p{
+        padding-left: 2em;
+        padding-right: 17em;
+        
+    }
+
+    .explanation{
+        width: 33em;
+        position: static;
+        margin-left: 2em;
+        background-color: rgb(255, 255, 255,0.9);
+    
+    }
+
+    .explanation h3{
+        padding-top: 1em;
+        font-size: 2.4em;
+
+    }
+
+    .explanation p{
+        padding-right: 2em;
+    }
+
+    .participation{
+        height: 36em;
+        border-bottom: none;
+        border-top:5px solid rgb(136, 226, 241) ;
+    }
+
+    .participation h3{
+        font-size: 2.4em;
+        padding-left: 0.8em;
+        padding-right: 3em;
+    }
+
+    .participation p{
+        padding-left: 2em;
+        padding-right: 16em;
+    }
+
+    .participation::after{
+        content: url(../images/image\ \(5\).png);
+        position: static;
+        margin-left: 0px;
+        margin-top: 3px !important;
+        border-bottom: none;
+        width: 1500px !important;
+        background-color:rgb(238, 250, 255) ;
+    }
+
+    .participation h3::after{
+        content: none;
+    }
+
+    /* .participation::after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        padding-top: 30px;
+        border-bottom: red 2px solid;
+    } */
+
+    .benefits{
+        height: 39em;
+        margin-top: 9em;
+    }
+
+    .benefits h3{
+        font-size:2.4em ;
+        padding-top: 3em;
+        padding-left: 1em;
+    }
+
+    .benefits p{
+        padding-left: 2em;
+        padding-right: 15em;
+    }
+
+    .benefits::before{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 20% ;
+        padding-top: 700px;
+        margin-left: 0px;
+        padding-right: 30px;
+        /* border-bottom: red 2px solid; */
+    }
+
+
+    .benefits::after{
+        content: url(../images/image\ \(3\).png);
+        margin-left: 6em;
+    }
+
+    .requirements{
+        height: 60em;
+    }
+
+    .requirements h3{
+        font-size: 2.4em;
+        padding-left: 0.5em;
+    }
+
+
+    .requirements p:nth-child(4),.requirements p:nth-child(5){
+        background-color: deeppink;
+        position: static;
+        padding-left: 7em;
+        width: 430px;
+
+    
+    }
+
+    .requirements p:nth-child(2),.requirements p:nth-child(3){
+        background-color: darkviolet;
+        padding-left: 7em;
+        padding-right: 12em;
+    }
+
+
+    .requirements p:nth-last-child(1){
+        font-size: 1.4em;
+        margin-top: 3em;
+        margin-left: 9em;
+        width: 400px;
+        background-color: violet;
+        text-align: center;
+    }
+
+    .sidebar{
+        height:66em !important;
+    }
+
+    .design-selection{
+        background-color: brown;
+        margin-left: 310px !important;
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .design-archives{
+        clear:left;
+        padding-top: 2em;
+        margin-left: 0px !important;
+        background-color: blue;
+        text-align: center;
+        border-left: none;
+    }
+
+    /* .archives{
+        padding-left: 140px;
+    }
+
+    .next,.viewall{
+        padding-left: 120px;
+    } */
+  
+    .zen-resources{
+        padding-top: 2em;
+        border-left: none;
+        text-align: center;
+        margin-left: 0px !important;
+        background-color: blue;
+    }
+
+}
+
+@media screen and (min-width:800px) and (max-width:900px){
+    .design-selection{
+        background-color: brown;
+        margin-left: 360px !important;
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .requirements p:nth-last-child(1){
+        font-size: 1.4em;
+        margin-top: 3em;
+        margin-left: 12em;
+        width: 400px;
+        background-color: violet;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1100px){
+    body{
+        overflow-x: hidden;
+    }
+
+    h1{
+        font-size: 5em;
+    }
+
+    h1::after{
+        content: "";
+        display: inline-block;
+        margin: 0 auto;
+        width:7%;
+        border-top: red 2px solid;
+        margin-bottom: 20px;
+    }
+    
+    h1::before{
+        content: "";
+        display: inline-block;
+        margin: 0 auto;
+        width: 7%;
+        border-top: red 2px solid;
+        margin-bottom: 20px;
+        
+    }
+    
+
+    h2{
+        margin-left: 27em;
+        font-size: 1.2em;
+
+    }
+
+    .summary{
+        text-align: center;
+        margin-left: 18em;
+        margin-right: 18em;
+        font-size: 15px;
+        /* background-color: blue;
+        color: blueviolet; */
+        
+    }
+
+    .preamble{
+        margin-top: 16em;
+        margin-right:5em ;
+        background-color: rgb(255, 255, 255,0.9);
+        border-bottom: none;
+    }
+
+    .preamble h3{
+        font-size: 2.4em;
+        padding-left:0.8em;
+        padding-right: 2em;
+    }
+
+    .preamble p{
+        padding-left: 2em;
+        padding-right:30em;
+        
+    }
+
+    .explanation{
+        width: 100%;
+        position: static;
+        margin-left: 2em;
+        background-color: rgb(255, 255, 255,0.9);
+    
+    }
+
+    .explanation h3{
+        padding-top: 1em;
+        font-size: 2.4em;
+
+    }
+
+    .explanation p{
+        padding-right: 32em;
+    }
+
+    .participation{
+        height: 36em;
+        border-bottom: none;
+        border-top:5px solid rgb(136, 226, 241) ;
+    }
+
+    .participation h3{
+        font-size: 2.4em;
+        padding-left: 0.8em;
+        padding-right: 3em;
+    }
+
+    .participation p{
+        padding-left: 2em;
+        padding-right: 35em;
+    }
+
+    .participation::after{
+        content: url(../images/image\ \(5\).png);
+        position: static;
+        margin-left: 0px;
+        margin-top: 3px !important;
+        border-bottom: none;
+        width: 1500px !important;
+        background-color:rgb(238, 250, 255) ;
+    }
+
+    .participation h3::after{
+        content: none;
+    }
+
+    /* .participation::after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        padding-top: 30px;
+        border-bottom: red 2px solid;
+    } */
+
+    .benefits{
+        height: 39em;
+        margin-top: 9em;
+    }
+
+    .benefits h3{
+        font-size:2.4em ;
+        padding-top: 3em;
+        padding-left: 1em;
+    }
+
+    .benefits p{
+        padding-left: 2em;
+        padding-right: 30em;
+    }
+
+    .benefits::before{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 20% ;
+        padding-top: 700px;
+        margin-left: 0px;
+        padding-right: 30px;
+        /* border-bottom: red 2px solid; */
+    }
+
+
+    .benefits::after{
+        content: url(../images/image\ \(3\).png);
+        margin-left: 6em;
+    }
+
+    .requirements{
+        height: 60em;
+    }
+
+    .requirements h3{
+        font-size: 2.4em;
+        padding-left: 0.5em;
+    }
+
+
+    .requirements p:nth-child(4),.requirements p:nth-child(5){
+        background-color: deeppink;
+        position: static;
+        padding-left: 10em;
+        width: 430px;
+
+    
+    }
+
+    .requirements p:nth-child(2),.requirements p:nth-child(3){
+        background-color: darkviolet;
+        padding-left: 10em;
+        padding-right: 30em;
+    }
+
+
+    .requirements p:nth-last-child(1){
+        font-size: 1.4em;
+        margin-top: 3em;
+        margin-left: 17em;
+        width: 400px;
+        background-color: violet;
+        text-align: center;
+    }
+
+    .sidebar{
+        height:66em !important;
+    }
+
+    .design-selection{
+        background-color: brown;
+        margin-left: 460px !important;
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .design-archives{
+        clear:left;
+        padding-top: 2em;
+        margin-left: 0px !important;
+        background-color: blue;
+        text-align: center;
+        border-left: none;
+    }
+
+    /* .archives{
+        padding-left: 140px;
+    }
+
+    .next,.viewall{
+        padding-left: 120px;
+    } */
+  
+    .zen-resources{
+        padding-top: 2em;
+        border-left: none;
+        text-align: center;
+        margin-left: 0px !important;
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width:1101px) and (max-width:1300px){
+    body{
+        overflow-x: hidden;
+    }
+
+    h1{
+        font-size: 6em;
+    }
+
+    h1::after{
+        content: "";
+        display: inline-block;
+        margin: 0 auto;
+        width:7%;
+        border-top: red 2px solid;
+        margin-bottom: 20px;
+    }
+    
+    h1::before{
+        content: "";
+        display: inline-block;
+        margin: 0 auto;
+        width: 7%;
+        border-top: red 2px solid;
+        margin-bottom: 20px;
+        
+    }
+    
+
+    h2{
+        margin-left: 32em;
+        font-size: 1.3em;
+
+    }
+
+    .summary{
+        text-align: center;
+        margin-left: 50em;
+        margin-right: 14em;
+        font-size: 15px;
+        /* background-color: blue;
+        color: blueviolet; */
+        
+    }
+
+    .preamble{
+        height:23em;
+        margin-top: 16em;
+        margin-right:5em ;
+        background-color: rgb(255, 255, 255,0.9);
+        border-bottom: none;
+    }
+
+    .preamble h3{
+        font-size: 2.4em;
+        padding-left:1.5em;
+        padding-right: 23em;
+    }
+
+    .preamble p{
+        padding-left: 3.5em;
+        padding-right: 39em;
+        
+    }
+
+    .explanation{
+        width: 33em;
+        position: absolute;
+        top: 35em;
+        margin-left: 40em;
+        margin-right: 17em;
+        /* background-color: rgb(255, 255, 255,0.9); */
+    
+    }
+
+    .explanation h3{
+        padding-top: 1em;
+        font-size: 2.4em;
+
+    }
+
+    .explanation p{
+        padding-right: 2em;
+    }
+
+    .participation{
+        width: 100%;
+        height: 34em;
+        /* background-color: yellow; */
+        background-color: rgb(238, 250, 255);
+        /* border-bottom: 1px solid red; */
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .participation h3{
+        font-size: 2.7em;
+        color: red;
+        padding-top: 0.5em;
+        padding-left: 1.2em;
+        padding-right: 20em;
+    }
+    
+    .participation p{
+        padding-left: 3.5em;
+        padding-right: 39em;
+        
+    }
+    
+    .participation h3::after{
+        content: url("../images/image\ \(4\).png");
+        position: absolute;
+        left: 14em;
+        top: 22em;
+        width:200px;
+        /* background-color: chocolate; */
+        
+    }
+    
+    .participation::after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 15%;
+        padding-top: 70px;
+        border-bottom: red 2px solid;
+    }
+    
+
+    /* .participation::after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        padding-top: 30px;
+        border-bottom: red 2px solid;
+    } */
+
+    .benefits::before{
+    content: url(../images/image\ \(3\).png);
+    position: absolute;
+    top: 97em;
+    left: 12em;
+    }
+
+    .benefits{
+        width: 100%;
+        height:26em;
+        /* background-color: brown; */
+        background-color: rgb(238, 250, 255);
+        
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-bottom: 5px solid rgb(136, 226, 241);
+    }
+
+    .benefits h3{
+        font-size: 2.7em;
+        color: red;
+        padding-top: 1.8em;
+        padding-left: 14em;
+    }
+
+    .benefits p{
+        font-size: 1em;
+        padding-left: 38em;
+        padding-right: 12em;
+        
+    }
+
+
+    .requirements{
+        width: 100%;
+        height:42em;
+        /* background-color: chartreuse; */
+        background-color: white;
+        opacity: 0.8;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .requirements h3{
+        font-size: 2.7em;
+        color: red;
+        padding-top: 0.7em;
+        text-align: center;
+    }
+    
+    .requirements p:nth-child(2),.requirements p:nth-child(3){
+        /* background-color: darkviolet; */
+        padding-left: 5em;
+        padding-right: 42em;
+    }
+    
+    .requirements p:nth-child(4),.requirements p:nth-child(5){
+        /* background-color: deeppink; */
+        position: absolute;
+        width: 450px;
+    }
+
+    .requirements p:nth-last-child(1){
+        font-size: 1.4em;
+        margin-top: 3em;
+        margin-left: 20em;
+        width: 400px;
+        background-color: violet;
+        text-align: center;
+    }
+
+    .requirements p:nth-child(4){
+        top: 125em;
+        left: 43em;
+       
+    }
+    
+    .requirements p:nth-child(5){
+        top: 133.5em;
+        left: 43em;
+       
+    }
+
+    .sidebar{
+        height:40em !important;
+    }
+
+    .design-selection{
+        float: left;
+        margin-left: 17em;
+        /* background-color: rgb(156, 77, 31); */
+       
+    }
+    
+    .design-archives{
+        margin-left: 49em;
+        /* background-color: magenta; */
+        border-left: white solid 2px;
+        padding-left: 3em;
+        margin-top: 2em;
+        
+    }
+    
+    .zen-resources{
+        /* background-color: blueviolet; */
+        margin-left: 49em;
+        padding-top: 3em;
+        padding-left: 3em;
+        border-left: white solid 2px;
+        height: 19em;
+    }
+    
+}
+
+@media screen and (min-width:1301px) and (max-width:1500px){
+    body{
+        overflow-x: hidden;
+    }
+
+    h1{
+        font-size: 6em;
+    }
+
+    h1::after{
+        content: "";
+        display: inline-block;
+        margin: 0 auto;
+        width:7%;
+        border-top: red 2px solid;
+        margin-bottom: 20px;
+    }
+    
+    h1::before{
+        content: "";
+        display: inline-block;
+        margin: 0 auto;
+        width: 7%;
+        border-top: red 2px solid;
+        margin-bottom: 20px;
+        
+    }
+    
+
+    h2{
+        margin-left: 40em;
+        font-size: 1.3em;
+
+    }
+
+    .summary{
+        text-align: center;
+        margin-left: 60em;
+        margin-right: 15em;
+        font-size: 15px;
+        /* background-color: blue;
+        color: blueviolet; */
+        
+    }
+
+    .preamble{
+        height:23em;
+        margin-top: 16em;
+        margin-right:5em ;
+        background-color: rgb(255, 255, 255,0.9);
+        border-bottom: none;
+    }
+
+    .preamble h3{
+        font-size: 2.4em;
+        padding-left:1.5em;
+        padding-right: 23em;
+    }
+
+    .preamble p{
+        padding-left: 3.5em;
+        padding-right: 53em;
+        
+    }
+
+    .explanation{
+        width: 33em;
+        position: absolute;
+        top: 33em;
+        margin-left: 40em;
+        margin-right: 17em;
+        /* background-color: rgb(255, 255, 255,0.9); */
+    
+    }
+
+    .explanation h3{
+        padding-top: 1em;
+        font-size: 2.4em;
+
+    }
+
+    .explanation p{
+        padding-right: 2em;
+    }
+
+    .participation{
+        width: 100%;
+        height: 34em;
+        margin-top: 20px;
+        /* background-color: yellow; */
+        background-color: rgb(238, 250, 255);
+        /* border-bottom: 1px solid red; */
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .participation h3{
+        font-size: 2.7em;
+        color: red;
+        padding-top: 0.5em;
+        padding-left: 1.2em;
+        padding-right: 20em;
+    }
+    
+    .participation p{
+        padding-left: 3.5em;
+        padding-right: 53em;
+        
+    }
+    
+    .participation h3::after{
+        content: url("../images/image\ \(4\).png");
+        position: absolute;
+        left: 14em;
+        top: 22em;
+        width:200px;
+        /* background-color: chocolate; */
+        
+    }
+    
+    .participation::after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 15%;
+        padding-top: 70px;
+        border-bottom: red 2px solid;
+    }
+    
+
+    /* .participation::after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        padding-top: 30px;
+        border-bottom: red 2px solid;
+    } */
+
+    .benefits::before{
+        content: url(../images/image\ \(3\).png);
+        position: absolute;
+        top: 97em;
+        left: 12em;
+    }
+
+    .benefits{
+        width: 100%;
+        height:26em;
+        /* background-color: brown; */
+        background-color: rgb(238, 250, 255);
+        
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-bottom: 5px solid rgb(136, 226, 241);
+    }
+
+    .benefits h3{
+        font-size: 2.7em;
+        color: red;
+        padding-top: 1.8em;
+        padding-left: 14em;
+    }
+
+    .benefits p{
+        font-size: 1em;
+        padding-left: 38em;
+        padding-right: 18em;
+        
+    }
+
+
+    .requirements{
+        width: 100%;
+        height:42em;
+        /* background-color: chartreuse; */
+        background-color: white;
+        opacity: 0.8;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .requirements h3{
+        font-size: 2.7em;
+        color: red;
+        padding-top: 0.7em;
+        text-align: center;
+    }
+    
+    .requirements p:nth-child(2),.requirements p:nth-child(3){
+        /* background-color: darkviolet; */
+        padding-left: 5em;
+        padding-right: 52em;
+    }
+    
+    .requirements p:nth-child(4),.requirements p:nth-child(5){
+        /* background-color: deeppink; */
+        position: absolute;
+        width: 450px;
+    }
+
+    .requirements p:nth-last-child(1){
+        font-size: 1.4em;
+        margin-top: 3em;
+        margin-left: 24em;
+        width: 400px;
+        background-color: violet;
+        text-align: center;
+    }
+
+    .requirements p:nth-child(4){
+        top: 125em;
+        left: 43em;
+       
+    }
+    
+    .requirements p:nth-child(5){
+        top: 133.5em;
+        left: 43em;
+       
+    }
+
+    .sidebar{
+        height:40em !important;
+    }
+
+    .design-selection{
+        float: left;
+        margin-left: 17em;
+        /* background-color: rgb(156, 77, 31); */
+       
+    }
+    
+    .design-archives{
+        margin-left: 49em;
+        /* background-color: magenta; */
+        border-left: white solid 2px;
+        padding-left: 3em;
+        margin-top: 2em;
+        
+    }
+    
+    .zen-resources{
+        /* background-color: blueviolet; */
+        margin-left: 49em;
+        padding-top: 3em;
+        padding-left: 3em;
+        border-left: white solid 2px;
+        height: 19em;
+    }
+    
+}
