@@ -550,7 +550,7 @@ li>a{
         background-size: 70%;
         z-index:-1;
         top: 350px;
-        left: 10%;
+        left: 5%;
         height: 50%;
         width: 300px;
         background-position: center 320px ;
@@ -558,7 +558,7 @@ li>a{
     }
 
     body::after{
-        background-size: 68% 173%;
+        background-size: 68% 160%;
         background-position: center 10px ;
         position:fixed;
         top: 150px;
@@ -628,7 +628,7 @@ li>a{
 
     .explanation{
         position: static;
-        width: 22em;
+        width: 20em;
         margin-left: 1em;
         background-color: rgb(255, 255, 255,0.9);
         
@@ -642,7 +642,7 @@ li>a{
     }
 
     .explanation p{
-        padding-right: 6em;
+        padding-right: 4em;
     }
 
     .participation{
@@ -668,8 +668,8 @@ li>a{
         position: static;
         margin-left: 0px;
         margin-top: 0px !important;
-        height: 300px;
-        width:300px;
+        height: 100px;
+        width:100px;
         border-bottom: none;
     }
 
@@ -721,7 +721,7 @@ li>a{
     }
 
     .requirements{
-        height: 60em;
+        height: 80em;
     }
 
     .requirements h3{
@@ -757,7 +757,7 @@ li>a{
     }
 
     footer{
-        margin-top: 100px;
+        margin-top: 200px;
     }
 
     .sidebar{
