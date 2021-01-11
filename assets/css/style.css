@@ -628,7 +628,7 @@ li>a{
 
     .explanation{
         position: static;
-        width: 20em;
+        width: 17em;
         margin-left: 1em;
         background-color: rgb(255, 255, 255,0.9);
         
@@ -642,7 +642,7 @@ li>a{
     }
 
     .explanation p{
-        padding-right: 4em;
+        padding-right: 2em;
     }
 
     .participation{
@@ -670,6 +670,7 @@ li>a{
         margin-top: 0px !important;
         height: 100px;
         width:100px;
+        background-color:red;
         border-bottom: none;
     }
 
@@ -721,7 +722,7 @@ li>a{
     }
 
     .requirements{
-        height: 80em;
+        height: 120em;
     }
 
     .requirements h3{
@@ -761,7 +762,7 @@ li>a{
     }
 
     .sidebar{
-        height:66em !important;
+        height:76em !important;
     }
 
     .design-selection{
