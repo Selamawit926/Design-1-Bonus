@@ -539,7 +539,7 @@ li>a{
     font-size: 1.2em;
 }
 
-@media screen and (min-width:100px) and (max-width:300px){
+@media screen and (min-width:100px) and (max-width:400px){
 
     body{
         overflow-x: hidden;
