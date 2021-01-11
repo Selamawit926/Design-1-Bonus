@@ -60,7 +60,7 @@ body::before{
     height: 125%;
     width: 1000px;
     /* background-color: brown; */
-    animation:rotate 6s linear infinite;
+    /* animation:rotate 6s linear infinite; */
     /* animation: appear2 1s ease 1; */
 }
 
@@ -550,19 +550,19 @@ li>a{
         background-size: 70%;
         z-index:-1;
         top: 350px;
-        left: 15%;
+        left: 10%;
         height: 50%;
         width: 300px;
         background-position: center 320px ;
-        /* background-color: brown; */
+        background-color: brown;
     }
 
     body::after{
-        background-size: 62% 175%;
+        background-size: 68% 173%;
         background-position: center 10px ;
         position:fixed;
         top: 150px;
-        left: 5%;
+        left: 2%;
         height: 90%;
         width: 90%;
     }
@@ -575,7 +575,7 @@ li>a{
         content: "";
         display: inline-block;
         margin: 0 auto;
-        width:12%;
+        width:8%;
         border-top: red 2px solid;
         margin-bottom: 10px;
     }
@@ -584,7 +584,7 @@ li>a{
         content: "";
         display: inline-block;
         margin: 0 auto;
-        width: 12%;
+        width: 8%;
         border-top: red 2px solid;
         margin-bottom: 10px;
         
@@ -628,7 +628,7 @@ li>a{
 
     .explanation{
         position: static;
-        width: 20em;
+        width: 22em;
         margin-left: 1em;
         background-color: rgb(255, 255, 255,0.9);
         
@@ -642,7 +642,7 @@ li>a{
     }
 
     .explanation p{
-        padding-right: 10em;
+        padding-right: 6em;
     }
 
     .participation{
@@ -669,6 +669,7 @@ li>a{
         margin-left: 0px;
         margin-top: 0px !important;
         height: 300px;
+        width:300px;
         border-bottom: none;
     }
 
@@ -733,7 +734,7 @@ li>a{
         background-color: deeppink;
         position: static;
         padding-left: 1em;
-        padding-right: 3em;
+        padding-right: 2em;
         width: 250px;
 
     
@@ -755,13 +756,17 @@ li>a{
         text-align: center;
     }
 
+    footer{
+        margin-top: 100px;
+    }
+
     .sidebar{
         height:66em !important;
     }
 
     .design-selection{
         background-color: brown;
-        margin-left: 60px !important;
+        margin-left: 80px !important;
         margin-top: 2em;
         text-align: center;
     }
