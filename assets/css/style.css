@@ -60,7 +60,7 @@ body::before{
     height: 125%;
     width: 1000px;
     /* background-color: brown; */
-    /* animation:rotate 6s linear infinite; */
+    animation:rotate 6s linear infinite; 
     /* animation: appear2 1s ease 1; */
 }
 
@@ -732,7 +732,7 @@ li>a{
 
 
     .requirements p:nth-child(4),.requirements p:nth-child(5){
-        background-color: deeppink;
+        /* background-color: deeppink; */
         position: static;
         padding-left: 1em;
         padding-right: 2em;
@@ -742,7 +742,7 @@ li>a{
     }
 
     .requirements p:nth-child(2),.requirements p:nth-child(3){
-        background-color: darkviolet;
+        /* background-color: darkviolet; */
         padding-left: 1em;
         padding-right: 4em;
     }
@@ -753,7 +753,7 @@ li>a{
         margin-top: 3em;
         margin-left: 1em;
         width: 300px;
-        background-color: violet;
+        /* background-color: violet; */
         text-align: center;
     }
 
@@ -766,7 +766,7 @@ li>a{
     }
 
     .design-selection{
-        background-color: brown;
+        /* background-color: brown; */
         margin-left: 80px !important;
         margin-top: 2em;
         text-align: center;
@@ -776,7 +776,7 @@ li>a{
         clear:left;
         padding-top: 2em;
         margin-left: 0px !important;
-        background-color: blue;
+        /* background-color: blue; */
         text-align: center;
         border-left: none;
     }
@@ -794,7 +794,7 @@ li>a{
         border-left: none;
         text-align: center;
         margin-left: 0px !important;
-        background-color: blue;
+        /* background-color: blue; */
     }
 
 }
@@ -989,7 +989,7 @@ li>a{
 
 
     .requirements p:nth-child(4),.requirements p:nth-child(5){
-        background-color: deeppink;
+        /* background-color: deeppink; */
         position: static;
         padding-left: 1em;
         width: 430px;
@@ -998,7 +998,7 @@ li>a{
     }
 
     .requirements p:nth-child(2),.requirements p:nth-child(3){
-        background-color: darkviolet;
+        /* background-color: darkviolet; */
         padding-left: 1em;
         padding-right: 4em;
     }
@@ -1009,7 +1009,7 @@ li>a{
         margin-top: 3em;
         margin-left: 1.2em;
         width: 400px;
-        background-color: violet;
+        /* background-color: violet; */
         text-align: center;
     }
 
@@ -1018,7 +1018,7 @@ li>a{
     }
 
     .design-selection{
-        background-color: brown;
+        /* background-color: brown; */
         margin-left: 170px !important;
         margin-top: 2em;
         text-align: center;
@@ -1028,7 +1028,7 @@ li>a{
         clear:left;
         padding-top: 2em;
         margin-left: 0px !important;
-        background-color: blue;
+        /* background-color: blue; */
         text-align: center;
         border-left: none;
     }
@@ -1046,7 +1046,7 @@ li>a{
         border-left: none;
         text-align: center;
         margin-left: 0px !important;
-        background-color: blue;
+        /* background-color: blue; */
     }
 
 }
@@ -1240,7 +1240,7 @@ li>a{
 
 
     .requirements p:nth-child(4),.requirements p:nth-child(5){
-        background-color: deeppink;
+        /* background-color: deeppink; */
         position: static;
         padding-left: 3em;
         width: 430px;
@@ -1249,7 +1249,7 @@ li>a{
     }
 
     .requirements p:nth-child(2),.requirements p:nth-child(3){
-        background-color: darkviolet;
+        /* background-color: darkviolet; */
         padding-left: 3em;
         padding-right: 4em;
     }
@@ -1260,7 +1260,7 @@ li>a{
         margin-top: 3em;
         margin-left: 1.2em;
         width: 400px;
-        background-color: violet;
+        /* background-color: violet; */
         text-align: center;
     }
 
@@ -1269,7 +1269,7 @@ li>a{
     }
 
     .design-selection{
-        background-color: brown;
+        /* background-color: brown; */
         margin-left: 180px !important;
         margin-top: 2em;
         text-align: center;
@@ -1279,7 +1279,7 @@ li>a{
         clear:left;
         padding-top: 2em;
         margin-left: 0px !important;
-        background-color: blue;
+        /* background-color: blue; */
         text-align: center;
         border-left: none;
     }
@@ -1297,7 +1297,7 @@ li>a{
         border-left: none;
         text-align: center;
         margin-left: 0px !important;
-        background-color: blue;
+        /* background-color: blue; */
     }
 
 }
@@ -1310,7 +1310,7 @@ li>a{
         margin-top: 3em;
         margin-left: 1.8em;
         width: 400px;
-        background-color: violet;
+        /* background-color: violet; */
         text-align: center;
     }
 
@@ -1512,7 +1512,7 @@ li>a{
 
 
     .requirements p:nth-child(4),.requirements p:nth-child(5){
-        background-color: deeppink;
+        /* background-color: deeppink; */
         position: static;
         padding-left: 7em;
         width: 430px;
@@ -1521,7 +1521,7 @@ li>a{
     }
 
     .requirements p:nth-child(2),.requirements p:nth-child(3){
-        background-color: darkviolet;
+        /* background-color: darkviolet; */
         padding-left: 7em;
         padding-right: 12em;
     }
@@ -1532,8 +1532,8 @@ li>a{
         margin-top: 3em;
         margin-left: 9em;
         width: 400px;
-        background-color: violet;
-        text-align: center;
+        /* background-color: violet;
+        text-align: center; */
     }
 
     .sidebar{
@@ -1597,7 +1597,7 @@ li>a{
         width: 90%;
     }
     .design-selection{
-        background-color: brown;
+        /* background-color: brown; */
         margin-left: 360px !important;
         margin-top: 2em;
         text-align: center;
@@ -1608,7 +1608,7 @@ li>a{
         margin-top: 3em;
         margin-left: 12em;
         width: 400px;
-        background-color: violet;
+        /* background-color: violet; */
         text-align: center;
     }
 }
@@ -1802,7 +1802,7 @@ li>a{
 
 
     .requirements p:nth-child(4),.requirements p:nth-child(5){
-        background-color: deeppink;
+        /* background-color: deeppink; */
         position: static;
         padding-left: 10em;
         width: 430px;
@@ -1811,7 +1811,7 @@ li>a{
     }
 
     .requirements p:nth-child(2),.requirements p:nth-child(3){
-        background-color: darkviolet;
+        /* background-color: darkviolet; */
         padding-left: 10em;
         padding-right: 30em;
     }
@@ -1822,7 +1822,7 @@ li>a{
         margin-top: 3em;
         margin-left: 17em;
         width: 400px;
-        background-color: violet;
+        /* background-color: violet; */
         text-align: center;
     }
 
@@ -1831,7 +1831,7 @@ li>a{
     }
 
     .design-selection{
-        background-color: brown;
+        /* background-color: brown; */
         margin-left: 460px !important;
         margin-top: 2em;
         text-align: center;
@@ -1841,7 +1841,7 @@ li>a{
         clear:left;
         padding-top: 2em;
         margin-left: 0px !important;
-        background-color: blue;
+        /* background-color: blue; */
         text-align: center;
         border-left: none;
     }
@@ -1859,7 +1859,7 @@ li>a{
         border-left: none;
         text-align: center;
         margin-left: 0px !important;
-        background-color: blue;
+        /* background-color: blue; */
     }
 }
 
@@ -2088,7 +2088,7 @@ li>a{
         margin-top: 3em;
         margin-left: 20em;
         width: 400px;
-        background-color: violet;
+        /* background-color: violet; */
         text-align: center;
     }
 
@@ -2360,7 +2360,7 @@ li>a{
         margin-top: 3em;
         margin-left: 24em;
         width: 400px;
-        background-color: violet;
+        /* background-color: violet; */
         text-align: center;
     }
 
