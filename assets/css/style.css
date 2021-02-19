@@ -28,6 +28,21 @@ header{
     
 } */
 
+
+
+/* Differences between the original and my design:
+
+        1. On the summary section I didn't use position and z-index property, instead margin left and right property.
+
+        2. The original used float and clear property for preamable class with position relative, I used margin top and right property
+
+        3. For the rest of the sections the original has mostly used floating property to manipulate their positions, I used position absolute to change their positions.
+
+
+
+*/
+
+
 body{
     background-image: linear-gradient(to top,rgb(192, 248, 252),rgb(255, 255, 255));
 }
